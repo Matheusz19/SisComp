@@ -60,6 +60,7 @@ export default function Home({ setIsAuthenticated, role }) {
               </Link>
             </>
           )}
+          {role === null && <p className="text-white">Carregando...</p>}
         </div>
       </div>
     </div>
